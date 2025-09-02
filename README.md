@@ -1,57 +1,69 @@
-# Snake Mania 🐍
+# 🐍 Snake Game (Pygame)
 
-A fun and interactive **Snake Game** built with **Python** using **Pygame**. This game features colorful images for the snake, food, and background, making it visually appealing and engaging.
+A simple Snake Game built with **Python** and **Pygame**, featuring images, multiple food types, and smooth gameplay.  
 
-## Features
+## 📸 Preview
+*(Add a screenshot of your game here!)*
 
-- Classic snake gameplay with smooth controls.
-- Custom images for snake, food, and background.
-- Randomized food placement.
-- Easy-to-play and entertaining for all ages.
+---
 
-## Technologies Used
+## 🎮 Features
+- Classic Snake gameplay  
+- Background, snake, and food images  
+- Multiple food types (Apple, Avocado, Melon)  
+- Grid-based movement  
+- Start game with **Enter**, quit with **Esc**  
 
-- Python 3.x
-- Pygame
-- random
-- os
+---
 
-## Installation
+## 🎯 Controls
+| Key | Action |
+|-----|--------|
+| ⬆️ Up Arrow    | Move Up |
+| ⬇️ Down Arrow  | Move Down |
+| ⬅️ Left Arrow  | Move Left |
+| ➡️ Right Arrow | Move Right |
+| **Enter**     | Start Game |
+| **Esc**       | Quit Game |
 
-1. **Clone the repository**:
+---
 
-   ```bash
-   git clone https://github.com/mohinisri23/Snake-Mania
+## 🛠 Installation & Setup
 
-   Navigate to the project folder:
+### 1. Clone this repo
+```bash
+git clone https://github.com/mohinisri23/Snake-Mania
+cd snake-game
 
-cd snake-mania
 
-Install required modules:
+2. Install dependencies
 
+Make sure you have Python 3.10+ installed. Then install Pygame:
 pip install pygame
 
-How to Play
+3. Run the game
+python app.py
 
-Run the game:
+📂 Project Structure
+snake-game/
+│── app.py              # Entry point
+│── game/
+│   ├── game.py         # Main game loop
+│   ├── snake.py        # Snake logic
+│   ├── food.py         # Food logic
+│   ├── utils.py        # Helpers & assets loader
+│── assets/             # Images (snake.png, foods, background, etc.)
+│── LICENSE             # MIT License
+│── README.md           # This file
 
-python snake_game.py
+📜 License
 
-How to Play
+This project is licensed under the MIT License
 
-Run the game:
+🙌 Acknowledgements
 
-python snake_game.py
+Built with Pygame
+
+Inspired by the classic Snake game 🐍
 
 
-Control the snake using the arrow keys:
-
-Up: Move up
-
-Down: Move down
-
-Left: Move left
-
-Right: Move right
-
-Eat the food to grow longer. Avoid hitting the walls or yourself!
